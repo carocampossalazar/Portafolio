@@ -1,3 +1,36 @@
 .color-rose {
     color: #fda6b6;
 }
+
+.product-image {
+    position: relative;
+    border-bottom: 1px solid #495057 !important;
+}
+
+.product-image:hover {
+    border-bottom: 1px solid #fda6b6 !important;
+}
+
+.btn-dark {
+    color: #fda6b6 !important;
+    background-color: #fff !important;
+    border-color: #fda6b6 !important;
+}
+
+.btn-dark:hover {
+    color: #fff !important;
+    background-color: #fda6b6 !important;
+    border-color: #fda6b6 !important;
+}
+
+.color-primary {
+    color: #fda6b6 !important;
+}
+
+.bg-gray {
+    background-color: #fda6b6!important;
+}
+
+.text-gray {
+    color: #fff !important;
+}
