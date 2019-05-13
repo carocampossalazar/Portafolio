@@ -4,7 +4,7 @@
 
 .product-image {
     position: relative;
-    border-bottom: 1px solid #495057 !important;
+    border-bottom: 1px solid #fff !important;
 }
 
 .product-image:hover {
@@ -28,7 +28,7 @@
 }
 
 .bg-gray {
-    background-color: #fda6b6!important;
+    background-color: #fda6b6 !important;
 }
 
 .text-gray {
@@ -37,4 +37,25 @@
 
 .contact-bottom {
     margin-bottom: 100px;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff !important;
+    background-color: #fda6b6 !important;
+    border-color: #fda6b6 !important;
+}
+
+.btn-outline-secondary {
+    color: #fff !important;
+    background-color: #fda6b6 !important;
+    border-color: #fda6b6 !important;
+}
+
+.review-image {
+    border: solid 0px rgba(0,0,0,0.125) !important;
+}
+
+.detail-nav-link.nav-link.line-color.active , .detail-nav-link.nav-link.line-color:hover, .detail-nav-link.nav-link.line-color:focus {
+    color: #fda6b6 !important;
+    border-color: #fff #fff #fda6b6 !important;
 }
