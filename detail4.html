@@ -1,7 +1,7 @@
 <html lang="en"><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Caro Campos</title>
+    <title>Auxitex</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/regular.css" integrity="sha384-avJt9MoJH2rB4PKRsJRHZv7yiFZn8LrnXuzvmZoD3fh1aL6aM6s0BBcnCvBe6XSD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
-    <link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"><style type="text/css">
+  <link id="avast_os_ext_custom_font" href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet" type="text/css"><style type="text/css">
 @font-face {
   font-weight: 400;
   font-style:  normal;
@@ -90,7 +90,7 @@
 
   src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
 }</style></head>
-  <body><div class="d-none"><svg width="0" height="0" class="hidden">
+  <body style="padding-top: 0px;"><div class="d-none"><svg width="0" height="0" class="hidden">
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="search-1">
     <title>Search</title>
     <desc>A line styled icon from Orion Icon Library.</desc>
@@ -617,9 +617,9 @@
 
 
     <!-- Header-->
-    <header class="header header-absolute">
+    <header class="header">
       <!-- Navbar-->
-      <nav class="navbar navbar-expand-lg bg-transparent navbar-sticky navbar-airy navbar-dark bg-hover-white bg-fixed-white navbar-hover-light navbar-fixed-light">
+      <nav class="navbar navbar-expand-lg navbar-sticky navbar-airy navbar-light bg-white bg-fixed-white">
         <div class="container-fluid">  
           <!-- Navbar Header  --><a href="index.html" class="navbar-brand">
             <svg class="navbar-brand-svg" viewBox="0 0 65 16" width="85" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -631,21 +631,21 @@
           <div id="navbarCollapse" class="collapse navbar-collapse">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a href="#home" class="nav-link active">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                <a href="#about" class="nav-link">¿Quién soy?</a>
+                <a href="index.html" class="nav-link">¿Quién soy?</a>
               </li>
-              <!-- Skills 
+              <!--
               <li class="nav-item">
-                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="index.html" class="nav-link">Habilidades</a>
               </li>
               -->
               <li class="nav-item ">
-                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="index.html" class="nav-link active">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a href="#contact" class="nav-link">Contacto</a>
+                <a href="index.html" class="nav-link">Contacto</a>
               </li>
             </ul>
           </div>
@@ -677,297 +677,44 @@
     </header>
     <!-- /Header-->
 
-    <!-- Home-->
-    <div id="home">
-      <section data-parallax="scroll" data-speed="0.5" data-position-x="left" data-bleed="20" class="h-100vh light-overlay-lg-0 d-flex align-items-center text-dark text-center">
-        <div class="container">
-          <div class="row">
-            <div class="owl-item cloned" style="width: 1349px;">
-              <div style="background: rgba(0, 0, 0, 0.9); height: 600px;" class="item home-full-item">
-                <img src="img/perfil-home.jpg" alt="imagen de home" class="bg-image">
-                <div class="container-fluid h-100 py-5">
-                  <div class="row align-items-center h-100">
-                    <div class="col-lg-8 col-xl-8 mx-auto text-white text-center">
-                      <h5 class="text-uppercase text-white font-weight-light mb-4 letter-spacing-5">UX/UI Designer</h5>
-                      <h1 class="mb-5 display-2 font-weight-bold text-serif">Caro Campos</h1>
-                      <p class="lead mb-4">Apasionada del diseño y amante de las piñas</p>
-                      <p><a href="#about" class="btn btn-outline-light">Conóceme</a></p>
-                    </div>
+    <!-- Product-->
+    <section class="product-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xl-7 pt-4 order-2 order-lg-1">
+              <a href="img/product/kyle-loftus-596319-unsplash-cropped-2.082ee6e1.jpg" data-footer="Proyecto 1 - Caption text" data-toggle="lightbox" data-gallery="product-gallery" class="d-block mb-4"><img src="img/proyecto11.jpg" alt="Modern Jacket 1" class="img-fluid"></a>
+              <a href="img/product/kyle-loftus-596319-unsplash-cropped.e149051a.jpg" data-footer="Proyecto 2 - Caption text" data-toggle="lightbox" data-gallery="product-gallery" class="d-block mb-4"><img src="img/proyecto12.jpg" alt="Modern Jacket 2" class="img-fluid"></a>
+          </div>
+          <div class="col-lg-6 col-xl-5 pl-lg-5 pt-4 order-1 order-lg-2">
+            <div style="top: 100px;" class="sticky-top">
+              <h2 class="mb-4">Auxitex</h2>
+              <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between mb-4">
+                <ul class="list-inline mb-2 mb-sm-0">
+                  <li class="list-inline-item h4 font-weight-light mb-0">DISEÑO WEB</li>
+                </ul>
+              </div>
+              <p class="mb-4 text-muted ">Auxitex es una empresa de comercialización de colorantes y la fabricación de auxiliares textiles. Para ellos se trabajo el diseño de su página web, dándole una imagen fresca y ecológica.</p>
+              <form action="#">
+                <div class="row">
+                  <div class="col-12 col-lg-6 detail-option mb-3">
+                    <h6 class="detail-option-heading">Agencia</h6>
+                    <label for="size_2" class="btn btn-sm btn-outline-secondary detail-option-btn-label">
+                      Lúcuma Labs
+                      <input type="radio" name="size" value="value_2" id="size_2" required="" class="input-invisible">
+                    </label>
+                  </div>
+                  <div class="col-sm-12 col-lg-12 detail-option mb-3">
+                    <h6 class="detail-option-heading">Auxitex</h6>
+                    <a href="https://auxitex.com/es/" class="btn btn-dark"  target="_blank">Ver Página</a>
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    
-    
-    <!-- /Home-->
-
-    
-    <!-- ¿Quién Soy?-->
-    <div id="about">
-      <section class="py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 ml-auto">
-              <div class="position-absolute z-index-5 py-6">
-                <h2>Designer<br>dreamer<br>pineapple</h2>
-                <p class="text-muted"></p>
-                <p class="lead-gains"><a class="download btn btn-link text-dark td-none px-0" href="cv/CV-Carolyn-Campos.pdf" download="CV-Carolyn-Campos.pdf" target="_blank">Ver mi CV</a></p>
-              </div>
-              <div class="ml-6">
-                <a href="detail.html"><img src="img/perfil1.jpg" alt="perfil 1" class="img-fluid"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-6">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <h6 class="text-uppercase text-muted letter-spacing-5 mb-1">29 Años de mí</h6>
-              <h2 class="mb-5 font-weight-bold text-serif color-rose">¿Quién Soy?</h2>
-              <p class="text-lg text-muted">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections </p>
-            </div>
-            <div class="col-lg-6 ml-lg-auto">
-              <div class="row">
-                <div class="col-sm-6 mb-4">
-                  <h4>1989</h4>
-                  <p class="text-muted">Nací con la estrella </p>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <h4>2011</h4>
-                  <p class="text-muted">Siempre supe que quería ser comunicadora, que quería decir algo y que</p>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <h4>2016</h4>
-                  <p class="text-muted">Lúcuma Labs fué el lugar que me dió la confianza para crecer, aprender y seguir creciendo, puedo decir que lo que soy es..... </p>
-                </div>
-                <div class="col-sm-6 mb-4">
-                  <h4>2018</h4>
-                  <p class="text-muted">Laboratoria fue el gran reto. Reto mi forma de aprender, pensar y crear,<br>me hizo salir de mi zona de confort y empezar de nuevo.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 d-flex align-items-center">
-              <div class="w-100">
-                <img src="img/perfil2.jpg" alt="perfil 2" class="img-fluid">
-              </div>
-            </div>
-            <div class="col-lg-5 d-none d-lg-block">
-              <img src="img/perfil3.jpg" alt="perfil 3" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-6">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="mb-6">Si puedes diseñar una cosa, entonces puedes diseñarlo todo...</h2>        
-            </div>
-            <div class="col-lg-6">
-              <p class="text-lg text-muted">Creativa y apasionada por el diseño. Me desarrollé como diseñadora gráfica en la creación de productos digitales, trabajando de la mano con equipos multidisciplinarios he potenciado mi curiosidad por la tecnología e innovación.</p>
-            </div>
-            <div class="col-lg-6"> 
-              <p class="text-lg text-muted">He combinado mi experiencia como UI con el trabajo de UX para brindar soluciones que generen un impacto positivo en las personas.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-
-    <!-- Skills-->
-    <div>
-    </div>
-
-
-    <!-- Projects-->
-    <div id="projects">
-      <section class="py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-8 mx-auto text-center mb-5">
-              <h2 class="mb-5 font-weight-bold text-serif color-rose">Proyectos</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Grid -->
-            <div class="products-grid col-12 sidebar-none">
-              <div class="row">
-                <!-- product-->
-                <div class="col-xl-4 col-lg-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image"><img src="img/proyecto1.jpg" alt="product" class="img-fluid">
-                      <div class="product-hover-overlay"><a href="detail.html" class="product-hover-overlay-link"></a>
-                        <div class="product-hover-overlay-buttons">
-                          <a href="detail.html" class="btn btn-dark btn-buy"><i class="fa-search fa"></i><span class="btn-buy-label ml-2">Ver</span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-2">
-                      <p class="text-muted text-sm mb-1">REDISEÑO UX / UI</p>
-                      <h3 class="h6 text-uppercase mb-1"><a href="detail.html" class="text-dark">Tus Finanzas</a></h3>
-                      <!-- Texto <span class="text-muted">Tus Finanzas App, es un aplicación que te permite ver tus movimientos, gastos por mes y crear metas de ahorro.</span>-->
-                    </div>
-                  </div>
-                </div>
-                <!-- /product-->
-                <!-- product-->
-                <div class="col-xl-4 col-lg-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image"><img src="img/proyecto3.jpg" alt="product" class="img-fluid">
-                      <div class="product-hover-overlay"><a href="detail1.html" class="product-hover-overlay-link"></a>
-                        <div class="product-hover-overlay-buttons">
-                          <a href="detail1.html" class="btn btn-dark btn-buy"><i class="fa-search fa"></i><span class="btn-buy-label ml-2">Ver</span></a>
-                         </div>
-                      </div>
-                    </div>
-                    <div class="py-2">
-                      <p class="text-muted text-sm mb-1">DISEÑO UX / UI</p>
-                      <h3 class="h6 text-uppercase mb-1"><a href="detail1.html" class="text-dark">Marketplace Europiggy</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <!-- /product-->
-                <!-- product-->
-                <div class="col-xl-4 col-lg-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image"><img src="img/proyecto5.jpg" alt="product" class="img-fluid">
-                      <div class="product-hover-overlay"><a href="detail2.html" class="product-hover-overlay-link"></a>
-                        <div class="product-hover-overlay-buttons">
-                          <a href="detail2.html" class="btn btn-dark btn-buy"><i class="fa-search fa"></i><span class="btn-buy-label ml-2">Ver</span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-2">
-                      <p class="text-muted text-sm mb-1">WEB</p>
-                      <h3 class="h6 text-uppercase mb-1"><a href="detail2.html" class="text-dark">Pókemon Go Dashboard</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <!-- /product-->
-                <!-- product-->
-                <div class="col-xl-4 col-lg-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image"><img src="img/proyecto8.jpg" alt="product" class="img-fluid">
-                      <div class="product-hover-overlay"><a href="detail3.html" class="product-hover-overlay-link"></a>
-                        <div class="product-hover-overlay-buttons">
-                          <a href="detail3.html" class="btn btn-dark btn-buy"><i class="fa-search fa"></i><span class="btn-buy-label ml-2">Ver</span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-2">
-                      <p class="text-muted text-sm mb-1">DISEÑO WEB</p>
-                      <h3 class="h6 text-uppercase mb-1"><a href="detail3.html" class="text-dark">SI UNICON</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <!-- /product-->
-                <!-- product-->
-                <div class="col-xl-4 col-lg-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image"><img src="img/proyecto11.jpg" alt="product" class="img-fluid">
-                      <div class="product-hover-overlay"><a href="detail4.html" class="product-hover-overlay-link"></a>
-                        <div class="product-hover-overlay-buttons">
-                          <a href="detail4.html" class="btn btn-dark btn-buy"><i class="fa-search fa"></i><span class="btn-buy-label ml-2">Ver</span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-2">
-                      <p class="text-muted text-sm mb-1">DISEÑO WEB</p>
-                      <h3 class="h6 text-uppercase mb-1"><a href="detail4.html" class="text-dark">Auxitex</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <!-- /product-->
-                <!-- product-->
-                <div class="col-xl-4 col-lg-4 col-sm-6">
-                  <div class="product">
-                    <div class="product-image"><img src="img/proyecto13.jpg" alt="product" class="img-fluid">
-                      <div class="product-hover-overlay"><a href="detail5.html" class="product-hover-overlay-link"></a>
-                        <div class="product-hover-overlay-buttons">
-                          <a href="detail5.html" class="btn btn-dark btn-buy"><i class="fa-search fa"></i><span class="btn-buy-label ml-2">Ver</span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-2">
-                      <p class="text-muted text-sm mb-1">DISEÑO WEB</p>
-                      <h3 class="h6 text-uppercase mb-1"><a href="detail5.html" class="text-dark">Mailo Live Blog</a></h3>
-                    </div>
-                  </div>
-                </div>
-                <!-- /product-->
-              </div>
-            </div>
-            <!-- / Grid End-->
-          </div>
-        </div>
-      </section>
-    </div>
-    
-
-    <!-- Contact-->
-    <div id="contact" class="py-5">
-      <section>
-        <div class="container">
-          <div class="hero-content pb-5 text-center">
-            <div class="row">
-              <div class="col-xl-8 mx-auto text-center">
-                <h2 class="mb-5 font-weight-bold text-serif color-rose">Contacto</h2>
-              </div>
-            </div>
-            <div class="row">   
-              <div class="col-xl-8 offset-xl-2">
-                <p class="lead text-muted">No dudes en ponerte en contacto conmigo<br>¡Vamos a construir grandes cosas juntos!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact-bottom">   
-        <div class="container">       
-          <div class="row">
-              <div class="col-md-4 text-center text-md-left">
-                <svg class="svg-icon svg-icon-light color-primary w-3rem h-3rem mb-3">
-                  <use xlink:href="#navigation-map-1"> </use>
-                </svg>
-                <h4 class="ff-base">Dirección</h4>
-                <p class="text-muted">Comas, Lima, Perú</strong></p>
-              </div>
-              <div class="col-md-4 text-center text-md-left">
-                <svg class="svg-icon svg-icon-light color-primary w-3rem h-3rem mb-3">
-                  <use xlink:href="#audio-call-1"> </use>
-                </svg>
-                <h4 class="ff-base">Teléfono</h4>
-                <p class="text-muted">+51 999 804 795</p>
-              </div>
-              <div class="col-md-4 text-center text-md-left">
-                <svg class="svg-icon svg-icon-light color-primary w-3rem h-3rem mb-3">
-                  <use xlink:href="#mail-1"> </use>
-                </svg>
-                <h4 class="ff-base">Email</h4>
-                <p class="text-muted">ccampossalazar@gmail.com</p>
-              </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
+      </div>
+    </section>
+    <!-- /Product-->
 
     <!-- Footer-->
     <footer class="main-footer">
@@ -981,10 +728,9 @@
           </div>
       </div>
     </footer>
+    <!-- /Footer-->
 
 
-
-    
     <!-- JavaScript files-->
     <script>
       // ------------------------------------------------------- //
